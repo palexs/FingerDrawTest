@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F0431515C6806800D19CFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F0431415C6806800D19CFD /* UIKit.framework */; };
+		80F0431715C6806800D19CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F0431615C6806800D19CFD /* Foundation.framework */; };
+		80F0431915C6806800D19CFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F0431815C6806800D19CFD /* CoreGraphics.framework */; };
+		80F0431F15C6806800D19CFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80F0431D15C6806800D19CFD /* InfoPlist.strings */; };
+		80F0432115C6806800D19CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F0432015C6806800D19CFD /* main.m */; };
+		80F0432515C6806800D19CFD /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F0432415C6806800D19CFD /* FDAppDelegate.m */; };
+		80F0432815C6806800D19CFD /* FDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F0432715C6806800D19CFD /* FDViewController.m */; };
+		80F0432B15C6806800D19CFD /* FDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F0432915C6806800D19CFD /* FDViewController.xib */; };
+		80F0434815C6A51500D19CFD /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F0434715C6A51500D19CFD /* bar.png */; };
+		80F0434915C6A76C00D19CFD /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F0434515C6A48700D19CFD /* Canvas.m */; };
+		80F0434F15C6AA5A00D19CFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F0434E15C6AA5A00D19CFD /* QuartzCore.framework */; };
+		80F0435115C6C70000D19CFD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F0435015C6C70000D19CFD /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80F0431015C6806800D19CFD /* FingerDrawTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerDrawTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F0431415C6806800D19CFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80F0431615C6806800D19CFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80F0431815C6806800D19CFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80F0431C15C6806800D19CFD /* FingerDrawTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerDrawTest-Info.plist"; sourceTree = "<group>"; };
+		80F0431E15C6806800D19CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80F0432015C6806800D19CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80F0432215C6806800D19CFD /* FingerDrawTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingerDrawTest-Prefix.pch"; sourceTree = "<group>"; };
+		80F0432315C6806800D19CFD /* FDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDAppDelegate.h; sourceTree = "<group>"; };
+		80F0432415C6806800D19CFD /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
+		80F0432615C6806800D19CFD /* FDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDViewController.h; sourceTree = "<group>"; };
+		80F0432715C6806800D19CFD /* FDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDViewController.m; sourceTree = "<group>"; };
+		80F0432A15C6806800D19CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FDViewController.xib; sourceTree = "<group>"; };
+		80F0434415C6A48700D19CFD /* Canvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		80F0434515C6A48700D19CFD /* Canvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		80F0434715C6A51500D19CFD /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		80F0434E15C6AA5A00D19CFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80F0435015C6C70000D19CFD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F0430D15C6806800D19CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F0435115C6C70000D19CFD /* MessageUI.framework in Frameworks */,
+				80F0434F15C6AA5A00D19CFD /* QuartzCore.framework in Frameworks */,
+				80F0431515C6806800D19CFD /* UIKit.framework in Frameworks */,
+				80F0431715C6806800D19CFD /* Foundation.framework in Frameworks */,
+				80F0431915C6806800D19CFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F0430515C6806700D19CFD = {
+			isa = PBXGroup;
+			children = (
+				80F0431A15C6806800D19CFD /* FingerDrawTest */,
+				80F0431315C6806800D19CFD /* Frameworks */,
+				80F0431115C6806800D19CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F0431115C6806800D19CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F0431015C6806800D19CFD /* FingerDrawTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F0431315C6806800D19CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80F0435015C6C70000D19CFD /* MessageUI.framework */,
+				80F0434E15C6AA5A00D19CFD /* QuartzCore.framework */,
+				80F0431415C6806800D19CFD /* UIKit.framework */,
+				80F0431615C6806800D19CFD /* Foundation.framework */,
+				80F0431815C6806800D19CFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80F0431A15C6806800D19CFD /* FingerDrawTest */ = {
+			isa = PBXGroup;
+			children = (
+				80F0432315C6806800D19CFD /* FDAppDelegate.h */,
+				80F0432415C6806800D19CFD /* FDAppDelegate.m */,
+				80F0432615C6806800D19CFD /* FDViewController.h */,
+				80F0432715C6806800D19CFD /* FDViewController.m */,
+				80F0432915C6806800D19CFD /* FDViewController.xib */,
+				80F0434415C6A48700D19CFD /* Canvas.h */,
+				80F0434515C6A48700D19CFD /* Canvas.m */,
+				80F0431B15C6806800D19CFD /* Supporting Files */,
+			);
+			path = FingerDrawTest;
+			sourceTree = "<group>";
+		};
+		80F0431B15C6806800D19CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F0434715C6A51500D19CFD /* bar.png */,
+				80F0431C15C6806800D19CFD /* FingerDrawTest-Info.plist */,
+				80F0431D15C6806800D19CFD /* InfoPlist.strings */,
+				80F0432015C6806800D19CFD /* main.m */,
+				80F0432215C6806800D19CFD /* FingerDrawTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F0430F15C6806800D19CFD /* FingerDrawTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F0432E15C6806800D19CFD /* Build configuration list for PBXNativeTarget "FingerDrawTest" */;
+			buildPhases = (
+				80F0430C15C6806800D19CFD /* Sources */,
+				80F0430D15C6806800D19CFD /* Frameworks */,
+				80F0430E15C6806800D19CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerDrawTest;
+			productName = FingerDrawTest;
+			productReference = 80F0431015C6806800D19CFD /* FingerDrawTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F0430715C6806700D19CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 80F0430A15C6806700D19CFD /* Build configuration list for PBXProject "FingerDrawTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80F0430515C6806700D19CFD;
+			productRefGroup = 80F0431115C6806800D19CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F0430F15C6806800D19CFD /* FingerDrawTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F0430E15C6806800D19CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F0431F15C6806800D19CFD /* InfoPlist.strings in Resources */,
+				80F0432B15C6806800D19CFD /* FDViewController.xib in Resources */,
+				80F0434815C6A51500D19CFD /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F0430C15C6806800D19CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F0434915C6A76C00D19CFD /* Canvas.m in Sources */,
+				80F0432115C6806800D19CFD /* main.m in Sources */,
+				80F0432515C6806800D19CFD /* FDAppDelegate.m in Sources */,
+				80F0432815C6806800D19CFD /* FDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80F0431D15C6806800D19CFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F0431E15C6806800D19CFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80F0432915C6806800D19CFD /* FDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F0432A15C6806800D19CFD /* en */,
+			);
+			name = FDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F0432C15C6806800D19CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80F0432D15C6806800D19CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F0432F15C6806800D19CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerDrawTest/FingerDrawTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerDrawTest/FingerDrawTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80F0433015C6806800D19CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerDrawTest/FingerDrawTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerDrawTest/FingerDrawTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F0430A15C6806700D19CFD /* Build configuration list for PBXProject "FingerDrawTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F0432C15C6806800D19CFD /* Debug */,
+				80F0432D15C6806800D19CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F0432E15C6806800D19CFD /* Build configuration list for PBXNativeTarget "FingerDrawTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F0432F15C6806800D19CFD /* Debug */,
+				80F0433015C6806800D19CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F0430715C6806700D19CFD /* Project object */;
+}
