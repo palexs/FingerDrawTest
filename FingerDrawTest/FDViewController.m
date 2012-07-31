@@ -15,7 +15,7 @@
 
 @implementation FDViewController
 
-@synthesize modeSegmentedControl, drawingCanvas;
+@synthesize modeSegmentedControl, drawingCanvas, textField;
 
 - (void)viewDidLoad
 {
@@ -35,6 +35,7 @@
     [super viewDidUnload];
     self.drawingCanvas = nil;
     self.modeSegmentedControl = nil;
+    self.textField = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -47,6 +48,7 @@
     if (modeSegmentedControl.selectedSegmentIndex == 0) {
         [self.view addSubview:self.drawingCanvas];
         [self.view bringSubviewToFront:self.drawingCanvas];
+        [self.textField resignFirstResponder];
     } else {
         self.drawingCanvas.image = nil;
         [self.drawingCanvas removeFromSuperview];

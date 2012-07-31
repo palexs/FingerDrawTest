@@ -15,6 +15,7 @@
 @interface FDViewController : UIViewController <MFMailComposeViewControllerDelegate>
 
 @property (nonatomic, retain) IBOutlet UISegmentedControl *modeSegmentedControl;
+@property (nonatomic, retain) IBOutlet UITextField *textField;
 @property (nonatomic, retain) Canvas *drawingCanvas;
 
 - (IBAction)changeMode:(id)sender;
